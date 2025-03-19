@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Hacking Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ethical Hacking Hub</h1>
+        <p>Your guide to cybersecurity & penetration testing.</p>
+    </header>
+
+    <section>
+        <h2>🔹 Ethical Hacking Tools</h2>
+        <ul>
+            <li><a href="https://nmap.org/" target="_blank">Nmap</a> - Network Scanner</li>
+            <li><a href="https://www.kali.org/" target="_blank">Kali Linux</a> - Hacking OS</li>
+            <li><a href="https://portswigger.net/burp" target="_blank">Burp Suite</a> - Web Security</li>
+            <li><a href="https://www.metasploit.com/" target="_blank">Metasploit</a> - Exploitation Framework</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>📜 Ethical Hacking Code</h2>
+        <pre>
+            <code>
+import socket
+target = "192.168.1.1"
+port = 80
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+result = sock.connect_ex((target, port))
+if result == 0:
+    print("Port is open")
+sock.close()
+            </code>
+        </pre>
+    </section>
+
+    <footer>
+        <p>© 2025 Ethical Hacking Hub | <a href="https://github.com/yourusername">GitHub</a></p>
+    </footer>
+</body>
+</html>
